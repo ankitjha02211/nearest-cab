@@ -1,0 +1,23 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb-memory-server": "^6.9.2",
+    "mongoose": "^5.10.13",
+    "morgan": "~1.9.1"
+  },
+  "config": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
